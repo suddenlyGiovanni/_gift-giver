@@ -1,22 +1,34 @@
 import * as React from 'react';
-import './App.css';
+import { Button } from 'react-bootstrap';
 
-import logo from './logo.svg';
+interface IState {
+  gifts?: Array<{ id: number }>;
+}
+export default class App extends React.Component<any, IState> {
+  constructor(props: any) {
+    super(props);
+    this.state = { gifts: [] };
+  }
 
-class App extends React.Component {
+  public addGift = () => {
+    const { gifts } = this.state;
+    if (gifts) {
+      const ids = gifts.map(gift => gift.id);
+      const maxId = ids.length > 0 ? Math.max(...ids) : 0;
+
+      gifts.push({ id: maxId + 1 });
+    }
+    this.setState({ gifts });
+  };
+
   public render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+      <div>
+        <h2>Gift Giver</h2>
+        <Button className="btn-add" onClick={this.addGift}>
+          Add Gift
+        </Button>
       </div>
     );
   }
 }
-
-export default App;

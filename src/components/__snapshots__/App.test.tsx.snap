@@ -18,31 +18,21 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <header
-          className="App-header"
+        <h2>
+          Gift Giver
+        </h2>,
+        <Button
+          active={false}
+          block={false}
+          bsClass="btn"
+          bsStyle="default"
+          className="btn-add"
+          disabled={false}
+          onClick={[Function]}
         >
-          <img
-            alt="logo"
-            className="App-logo"
-            src={undefined}
-          />
-          <h1
-            className="App-title"
-          >
-            Welcome to React
-          </h1>
-        </header>,
-        <p
-          className="App-intro"
-        >
-          To get started, edit 
-          <code>
-            src/App.tsx
-          </code>
-           and save to reload.
-        </p>,
+          Add Gift
+        </Button>,
       ],
-      "className": "App",
     },
     "ref": null,
     "rendered": Array [
@@ -51,81 +41,29 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <img
-              alt="logo"
-              className="App-logo"
-              src={undefined}
-            />,
-            <h1
-              className="App-title"
-            >
-              Welcome to React
-            </h1>,
-          ],
-          "className": "App-header",
+          "children": "Gift Giver",
         },
         "ref": null,
-        "rendered": Array [
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "alt": "logo",
-              "className": "App-logo",
-              "src": undefined,
-            },
-            "ref": null,
-            "rendered": null,
-            "type": "img",
-          },
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "Welcome to React",
-              "className": "App-title",
-            },
-            "ref": null,
-            "rendered": "Welcome to React",
-            "type": "h1",
-          },
-        ],
-        "type": "header",
+        "rendered": "Gift Giver",
+        "type": "h2",
       },
       Object {
         "instance": null,
         "key": undefined,
-        "nodeType": "host",
+        "nodeType": "class",
         "props": Object {
-          "children": Array [
-            "To get started, edit ",
-            <code>
-              src/App.tsx
-            </code>,
-            " and save to reload.",
-          ],
-          "className": "App-intro",
+          "active": false,
+          "block": false,
+          "bsClass": "btn",
+          "bsStyle": "default",
+          "children": "Add Gift",
+          "className": "btn-add",
+          "disabled": false,
+          "onClick": [Function],
         },
         "ref": null,
-        "rendered": Array [
-          "To get started, edit ",
-          Object {
-            "instance": null,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": "src/App.tsx",
-            },
-            "ref": null,
-            "rendered": "src/App.tsx",
-            "type": "code",
-          },
-          " and save to reload.",
-        ],
-        "type": "p",
+        "rendered": "Add Gift",
+        "type": [Function],
       },
     ],
     "type": "div",
@@ -137,31 +75,21 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <header
-            className="App-header"
+          <h2>
+            Gift Giver
+          </h2>,
+          <Button
+            active={false}
+            block={false}
+            bsClass="btn"
+            bsStyle="default"
+            className="btn-add"
+            disabled={false}
+            onClick={[Function]}
           >
-            <img
-              alt="logo"
-              className="App-logo"
-              src={undefined}
-            />
-            <h1
-              className="App-title"
-            >
-              Welcome to React
-            </h1>
-          </header>,
-          <p
-            className="App-intro"
-          >
-            To get started, edit 
-            <code>
-              src/App.tsx
-            </code>
-             and save to reload.
-          </p>,
+            Add Gift
+          </Button>,
         ],
-        "className": "App",
       },
       "ref": null,
       "rendered": Array [
@@ -170,81 +98,29 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": Array [
-              <img
-                alt="logo"
-                className="App-logo"
-                src={undefined}
-              />,
-              <h1
-                className="App-title"
-              >
-                Welcome to React
-              </h1>,
-            ],
-            "className": "App-header",
+            "children": "Gift Giver",
           },
           "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "alt": "logo",
-                "className": "App-logo",
-                "src": undefined,
-              },
-              "ref": null,
-              "rendered": null,
-              "type": "img",
-            },
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "Welcome to React",
-                "className": "App-title",
-              },
-              "ref": null,
-              "rendered": "Welcome to React",
-              "type": "h1",
-            },
-          ],
-          "type": "header",
+          "rendered": "Gift Giver",
+          "type": "h2",
         },
         Object {
           "instance": null,
           "key": undefined,
-          "nodeType": "host",
+          "nodeType": "class",
           "props": Object {
-            "children": Array [
-              "To get started, edit ",
-              <code>
-                src/App.tsx
-              </code>,
-              " and save to reload.",
-            ],
-            "className": "App-intro",
+            "active": false,
+            "block": false,
+            "bsClass": "btn",
+            "bsStyle": "default",
+            "children": "Add Gift",
+            "className": "btn-add",
+            "disabled": false,
+            "onClick": [Function],
           },
           "ref": null,
-          "rendered": Array [
-            "To get started, edit ",
-            Object {
-              "instance": null,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": "src/App.tsx",
-              },
-              "ref": null,
-              "rendered": "src/App.tsx",
-              "type": "code",
-            },
-            " and save to reload.",
-          ],
-          "type": "p",
+          "rendered": "Add Gift",
+          "type": [Function],
         },
       ],
       "type": "div",
