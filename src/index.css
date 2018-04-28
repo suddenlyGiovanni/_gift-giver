@@ -1,5 +1,24 @@
 body {
   margin: 0;
-  padding: 0;
+  padding: 5%;
+  padding-right: 20%;
+  padding-left: 20%;
+
+  text-align: center;
+
   font-family: sans-serif;
+
+}
+
+
+.gift {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 20px;
+}
+
+Button {
+  margin: 10px;
+
 }
