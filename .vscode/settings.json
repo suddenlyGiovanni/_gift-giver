@@ -1,0 +1,7 @@
+{
+  "flow.enabled": false,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "cSpell.enabled": true,
+  "jest.showCoverageOnLoad": true
+}
